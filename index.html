@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Instagram</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="instagram-wrapper">
+        <div class="instagram-phone">
+            <img src="./imgs/instagram-celular.png" alt="smartphone displaying the Instagram">
+        </div>
+        <div class="instagram-continue">
+            <div class="group">
+                <img src="./imgs/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                <div class="profilepic"><img src="./imgs/44615396_1014818302053884_1225508784076488704_n.jpg"
+                    alt="profile picture"></div>
+                    <a href="#" class="instagram-login">Continue with the current login</a>
+                    <a href="#" class="instagram-logout">Remove account</a>
+                    <button onclick="darkmode()" class="darkmode-btn">Darkmode</button>
+            </div>
+            <div class="group">
+                <p class="not-account">Not your account?</p>
+                <p class="notaccount">
+                <p> <span class="link-blue">Switch account</span> or <span class="link-blue">Sing-up</span></p>
+                </p>
+            </div>
+            <div class="link-to-app">
+                <p class="get-app">Download the app</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function darkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
